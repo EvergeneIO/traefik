@@ -4,7 +4,7 @@ http:
       redirectScheme:
         scheme: https
     # https://doc.traefik.io/traefik/middlewares/basicauth/ <-- BasicAuth Dokumentation
-    # htpasswd -h yourname
+    # htpasswd -n yourname
     auth:
       basicAuth:
         users:
